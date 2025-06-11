@@ -5,8 +5,6 @@ VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExcelQuickFormater", "ExcelQuickFormater.csproj", "{28EEC01F-BC86-4A88-8649-B3AF6205A9CE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExcelQuickFormaterWeb", "..\ExcelQuickFormaterWeb\ExcelQuickFormaterWeb.csproj", "{FB93CA9A-BF13-4FD1-AC01-BC64C7D5CEF5}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,10 +17,6 @@ Global
 		{28EEC01F-BC86-4A88-8649-B3AF6205A9CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{28EEC01F-BC86-4A88-8649-B3AF6205A9CE}.Release|Any CPU.Build.0 = Release|Any CPU
 		{28EEC01F-BC86-4A88-8649-B3AF6205A9CE}.Release|Any CPU.Deploy.0 = Release|Any CPU
-		{FB93CA9A-BF13-4FD1-AC01-BC64C7D5CEF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{FB93CA9A-BF13-4FD1-AC01-BC64C7D5CEF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{FB93CA9A-BF13-4FD1-AC01-BC64C7D5CEF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{FB93CA9A-BF13-4FD1-AC01-BC64C7D5CEF5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

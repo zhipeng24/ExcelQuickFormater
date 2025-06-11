@@ -42,23 +42,18 @@
     <UseVSHostingProcess>false</UseVSHostingProcess>
   </PropertyGroup>
   <ItemGroup>
+    <Content Include="ExcelWebAddInDemoManifest\ExcelWebAddInDemo.xml">
+      <OpcRelationship>manifest-oemanifest</OpcRelationship>
+    </Content>
     <None Include="ExcelQuickFormaterManifest\SharePointProjectItem.spdata">
       <SharePointProjectItemId>{0fc27155-5492-4aab-9b91-785014941ced}</SharePointProjectItemId>
     </None>
     <Content Include="ExcelQuickFormaterManifest\ExcelQuickFormater.xml">
       <OpcRelationship>manifest-oemanifest</OpcRelationship>
     </Content>
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\ExcelQuickFormaterWeb\ExcelQuickFormaterWeb.csproj">
-      <Project>{FB93CA9A-BF13-4FD1-AC01-BC64C7D5CEF5}</Project>
-      <Name>ExcelQuickFormaterWeb</Name>
-      <Private>True</Private>
-      <RoleType>Web</RoleType>
-      <OutputItemType>SharePointWebProjectOutput</OutputItemType>
-      <RoleName>ExcelQuickFormaterWeb</RoleName>
-      <ReferenceOutputAssembly>False</ReferenceOutputAssembly>
-    </ProjectReference>
+    <None Include="ExcelWebAddInDemoManifest\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{1c954a9a-59a4-4f3d-8efa-53365ec8d79a}</SharePointProjectItemId>
+    </None>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
